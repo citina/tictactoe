@@ -9,7 +9,8 @@ triples <- list(
   c(3,5,7)
 )
 
-display = function(state){
+#Empty game board
+display <- function(state){
   cat("\n", state[1], " |", state[2], "|", state[3], "\n",
       "---+---+---", "\n",
       state[4], " |", state[5], "|", state[6], "\n",
@@ -213,3 +214,5 @@ play = function(){
     
   }
 }
+
+play()
